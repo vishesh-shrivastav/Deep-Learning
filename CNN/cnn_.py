@@ -49,8 +49,6 @@ test_datagen = ImageDataGenerator(rescale = 1./255)
 
 import os
 os.getcwd()
-os.chdir("C:\\Users\\Shrivatav\\Desktop\\Deep Learning A-Z\Deep_Learning_A_Z\\Volume 1 - Supervised Deep Learning\\Part 2 - Convolutional Neural Networks (CNN)\\Section 8 - Building a CNN\\Convolutional_Neural_Networks")
-os.getcwd()
 
 # Generate training and test sets
 training_set = train_datagen.flow_from_directory('dataset/training_set',
